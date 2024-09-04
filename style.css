@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Young Serif", serif;
+  background-color: hsl(30, 54%, 90%);
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardapio {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 450px;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.preparacao li,
+.ingredientes-itens li,
+.instrucoes li,
+.nutricao li {
+  font-size: 0.685rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.texto-principal {
+  font-size: 0.6rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.preparacao,
+.ingredientes,
+.instrucoes,
+.nutricao {
+  margin-bottom: 10px;
+}
+
+.preparacao h2,
+.ingredientes h2,
+.instrucoes h2,
+.nutricao h2 {
+  font-size: 1rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+
+.preparacao {
+  background: hsl(330, 100%, 98%);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+ol {
+  margin-top: -15px;
+  list-style-type: decimal;
+  padding: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+.preparacao-tempo,
+.ingredientes-itens,
+.instrucoes ul,
+.nutricao ul {
+  padding-left: 20px;
+}
+
+.ingredientes-itens {
+  margin-top: 10px;
+}
+
+::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.valores-nutricionais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+span {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutricao p {
+  font-size: 0.685rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* linhas */
+hr {
+  border-color: #ffffff41;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: white;
+  }
+}
+
+li {
+  padding: 0px 15px;
+}
